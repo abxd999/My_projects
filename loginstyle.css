@@ -1,0 +1,53 @@
+.section2-full-image-login {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.container-login-form {
+    width: 100%;
+    position: absolute;
+    top: 115%;
+    left: 0;
+   
+}
+
+.login-form {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px 0;
+    border-radius: 5px 20px;
+    background-color: rgba(55, 165, 182, 0.42);
+    box-shadow: 0 2px 8px rgba(9, 1, 1, 0.671);
+}
+
+input[type="email"],
+input[type="phone"] {
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.loginbutton {
+    width: 100px;
+    font-size: 16px;
+    color: #fbc600;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.7s ease-in-out;
+    background-color: #000;
+}
+
+.loginbutton:hover {
+    width: 120px;
+    color: #000;
+    transform: scale(1.1);
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+}
